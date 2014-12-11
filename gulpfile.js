@@ -70,7 +70,7 @@ gulp.task('watch',function(){
     gulp.watch(paths.stylus, ['stylus']);
 });
 
-gulp.task('webserver',function(){
+gulp.task('webserver',['jade','stylus'],function(){
     gulp.src(paths.dist)
         .pipe(webserver({
             livereload: true,
