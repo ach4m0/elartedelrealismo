@@ -1,1 +1,7 @@
-# El arte del realismo
+# El arte del realismo #
+
+## Run ##
+```
+$ npm install
+$ gulp
+```
